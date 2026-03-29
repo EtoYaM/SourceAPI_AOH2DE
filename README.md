@@ -11,7 +11,7 @@
 - Убедитесь, что версия загрузчика соответствует версии игры. Это можно понять по названию файла загрузчика: он формируется в таком виде: SourceAPIGenomeia-g*ВЕРСИЯ_ИГРЫ*_v*ВЕРСИЯ_ЗАГРУЗЧИКА*.jar (Например, `SourceAPIGenomeia-g0.2.1_v1.1.0.jar` создан для версии игры `0.2.1`).
 - Не скачивайте моды в непроверенных источниках, т.к. загрузчик не гарантирует их безопасность.
 
-Вы можете скачать тестовый мод [здесь](https://github.com/EtoYaM/TestModGenomeia/releases), либо поискать их в [сообществе Genomeia в telegram](https://t.me/GenomeiaCmty).
+Вы можете скачать тестовый мод [здесь](https://github.com/EtoYaM/TestModGenomeia/releases), либо поискать их в [сообществе Genomeia в telegram](https://t.me/GenomeiaCmty), либо зайти [сюда](https://github.com/EtoYaM/SourceAPIGenomeia/discussions/new?category=mods).
 
 ## Создание модов
 Т.к. основа этого проекта - Fabric, то создание модов (по крайней мере в части миксинов) аналогично [созданию их на Minecraft](https://wiki.fabricmc.net/ru:tutorial:mixin_introduction).
