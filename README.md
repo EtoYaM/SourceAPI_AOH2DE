@@ -33,4 +33,4 @@
 - [Пример мода](https://github.com/EtoYaM/TestModGenomeia)
 
 ### Будьте любезны, не создавайте вирусы
-### Можете добавить свой мод [сюда](https://github.com/EtoYaM/SourceAPIGenomeia/discussions/new?category=mods)
+Можете добавить свой мод [сюда](https://github.com/EtoYaM/SourceAPIGenomeia/discussions/new?category=mods)
