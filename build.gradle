@@ -17,10 +17,10 @@ repositories {
 sourceCompatibility = JavaVersion.VERSION_18
 targetCompatibility = JavaVersion.VERSION_18
 
-version = 'g0.2.1_v1.1.0'
+version = 'g2.01_v1.1.0'
 group = "ru.eto.ya.m"
 shadowJar {
-    archiveBaseName = "SourceAPIGenomeia"
+    archiveBaseName = "SourceAPI_AOH2DE"
     archiveClassifier = ""
 }
 

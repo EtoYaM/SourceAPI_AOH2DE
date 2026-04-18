@@ -1,17 +1,17 @@
-# SourceAPI Genomeia || [Fabric](https://github.com/FabricMC/fabric-loader) GameProvider для [Genomeia](https://github.com/dendor0101/Genomeia)
-Проект предоставляет адаптацию загрузчика Fabric для игры Genomeia.
+# SourceAPI AOH2:DE || [Fabric](https://github.com/FabricMC/fabric-loader) GameProvider для [AOH2:DE](https://github.com/dendor0101/AOH2:DE)
+Проект предоставляет адаптацию загрузчика Fabric для игры AOH2:DE.
 # Как использовать
 ## Загрузка модов
-1. Скачать [последний релиз SourceAPI Genomeia](https://github.com/EtoYaM/SourceAPIGenomeia/releases).
+1. Скачать [последний релиз SourceAPI AOH2:DE](https://github.com/EtoYaM/SourceAPI_AOH2:DE/releases).
 2. Поместить его в папку с игрой.
 3. Создать папку mods (там должны будут лежать моды).
 4. Запустить SourceAPI.
 ### Важно:
-- Убедитесь, что игры имеет название формата Genomeia-*стадия*-*версия*.jar (Например, `Genomeia-alpha-0.2.1.jar`)
-- Убедитесь, что версия загрузчика соответствует версии игры. Это можно понять по названию файла загрузчика: он формируется в таком виде: SourceAPIGenomeia-g*ВЕРСИЯ_ИГРЫ*_v*ВЕРСИЯ_ЗАГРУЗЧИКА*.jar (Например, `SourceAPIGenomeia-g0.2.1_v1.1.0.jar` создан для версии игры `0.2.1`).
+- Убедитесь, что игры имеет название формата AOH2:DE-*стадия*-*версия*.jar (Например, `AOH2:DE-alpha-0.2.1.jar`)
+- Убедитесь, что версия загрузчика соответствует версии игры. Это можно понять по названию файла загрузчика: он формируется в таком виде: SourceAPIAOH2:DE-g*ВЕРСИЯ_ИГРЫ*_v*ВЕРСИЯ_ЗАГРУЗЧИКА*.jar (Например, `SourceAPI_AOH2:DE-g0.2.1_v1.1.0.jar` создан для версии игры `0.2.1`).
 - Не скачивайте моды в непроверенных источниках, т.к. загрузчик не гарантирует их безопасность.
 
-Вы можете скачать тестовый мод [здесь](https://github.com/EtoYaM/TestModGenomeia/releases), либо поискать их в [сообществе Genomeia в telegram](https://t.me/GenomeiaCmty), либо зайти [сюда](https://github.com/EtoYaM/SourceAPIGenomeia/discussions/new?category=mods).
+Вы можете скачать тестовый мод [здесь](https://github.com/EtoYaM/TestMod_AOH2:DE/releases), либо поискать их в [сообществе AOH2:DE в telegram](https://t.me/GenomeiaCmty), либо зайти [сюда](https://github.com/EtoYaM/SourceAPIGenomeia/discussions/new?category=mods).
 
 ## Создание модов
 Т.к. основа этого проекта - Fabric, то создание модов (по крайней мере в части миксинов) аналогично [созданию их на Minecraft](https://wiki.fabricmc.net/ru:tutorial:mixin_introduction).
@@ -33,4 +33,4 @@
 - [Пример мода](https://github.com/EtoYaM/TestModGenomeia)
 
 ### Будьте любезны, не создавайте вирусы
-Можете добавить свой мод [сюда](https://github.com/EtoYaM/SourceAPIGenomeia/discussions/new?category=mods)
+Можете добавить свой мод [сюда](https://github.com/EtoYaM/SourceAPI_AOH2:DE/discussions/new?category=mods)

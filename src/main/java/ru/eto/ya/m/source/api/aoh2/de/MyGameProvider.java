@@ -1,4 +1,4 @@
-package ru.eto.ya.m.source.api.genomeia;
+package ru.eto.ya.m.source.api.aoh2.de;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -22,7 +22,7 @@ import net.fabricmc.loader.impl.util.log.LogCategory;
 
 
 public class MyGameProvider implements GameProvider {
-    public static final String CLIENT_ENTRYPOINT = "io.github.some_example_name.lwjgl3.Lwjgl3Launcher";
+    public static final String CLIENT_ENTRYPOINT = "aoc.kingdoms.lukasz.jakowski.desktop.DesktopLauncher";
     public static final String[] ENTRYPOINTS = { CLIENT_ENTRYPOINT };
 
     public static final String PROPERTY_APP_DIRECTORY = "appDirectory";
@@ -34,22 +34,22 @@ public class MyGameProvider implements GameProvider {
 
     @Override
     public String getGameId() {
-        return "genomeia";
+        return "aoh2:de";
     }
 
     @Override
     public String getGameName() {
-        return "Genomeia";
+        return "Age of History 2: Definitive Edition";
     }
 
     @Override
     public String getRawGameVersion() {
-        return "alpha-0.2.1";
+        return "2.01";
     }
 
     @Override
     public String getNormalizedGameVersion() {
-        return "0.2.1";
+        return "2.01";
     }
 
     @Override
@@ -109,7 +109,7 @@ public class MyGameProvider implements GameProvider {
         if (System.getProperty(SystemProperties.GAME_JAR_PATH) != null) {
             appLocations.add(System.getProperty(SystemProperties.GAME_JAR_PATH));
         }
-        appLocations.add("./Genomeia-" + getRawGameVersion() + ".jar");
+        appLocations.add("./game.jar");
         List<Path> existingAppLocations = appLocations.stream().map(p -> Paths.get(p).toAbsolutePath().normalize())
                 .filter(Files::exists).toList();
         GameProviderHelper.FindResult result = GameProviderHelper.findFirst(existingAppLocations, new HashMap<>(), true, ENTRYPOINTS);
