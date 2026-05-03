@@ -17,7 +17,7 @@ repositories {
 sourceCompatibility = JavaVersion.VERSION_18
 targetCompatibility = JavaVersion.VERSION_18
 
-version = 'g2.01_v1.2.0'
+version = 'g2.01_v1.3.0'
 group = "ru.eto.ya.m"
 shadowJar {
     archiveBaseName = "SourceAPI_AOH2DE"
@@ -38,6 +38,7 @@ dependencies {
     api "org.ow2.asm:asm-tree:9.2"
     api "org.ow2.asm:asm-util:9.2"
     api "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7"
+    api "io.github.llamalad7:mixinextras-fabric:0.5.4"
 }
 
 sourceSets {
